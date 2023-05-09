@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.0","target":"arcade","targetVersion":"1.12.30"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.30/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.12.30","repo":"intelas7/play-with-friends-2"}
 // total=2024762 new=6.04% cached=88.82% other=5.14%
 (function (ectx) {
 'use strict';
@@ -588,7 +588,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P26417(s) {
+function _main___P26510(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1261,13 +1261,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P26417.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-text/main.ts","functionName":"<main>","argumentNames":[]}
-_main___P26417.continuations = [ 49,50,51,52 ]
+_main___P26510.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"pxt_modules/arcade-text/main.ts","functionName":"<main>","argumentNames":[]}
+_main___P26510.continuations = [ 49,50,51,52 ]
 
-function _main___P26417_mk(s) {
+function _main___P26510_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P26417, depth: s.depth + 1,
+        parent: s, fn: _main___P26510, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -68245,5 +68245,5 @@ const sprites_BaseSpriteSayRenderer__C2259_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["myMole___4631","myHammer___4630"])
 
-return _main___P26417
+return _main___P26510
 })
